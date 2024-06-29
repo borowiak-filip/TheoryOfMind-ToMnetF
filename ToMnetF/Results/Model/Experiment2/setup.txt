@@ -1,0 +1,30 @@
+walls, full vision, Object D (4th)
+ts = 10
+map = 13x13
+depth = 10
+
+train/val sets ratio 0.9
+Trainining size = 1926
+Validation size = 215
+
+final result:
+Epoch: 999
+ | Training Loss: 13.1201
+ | Train Accuracy:  92.2396 %
+ | Validation Accuracy: 69.7115 %
+ 
+Batch = 16
+LSTM = 64
+ResNet size = 5
+N_echar = 8
+lr 1e-4
+weight_decay = 0.001
+Optim = Adam
+Clip_grad_norm = 1.0
+Loss = Cross_Entropy
+Epochs = 1000
+
+Model Parameters = 50764
+
+Cuda = ? no
+
