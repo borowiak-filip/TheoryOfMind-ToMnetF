@@ -16,6 +16,7 @@ each iterations represents a single game.
 set 'no_walls' parameter to determine complexity of the game.
 at the end of the file specify folder name in data to which you want data to be saved, e.g., 'demo' will save games to TomnetF/data/demo
 Its recommended to create 5000 data samples. For training netowrk will only take a fraction (can be changed).
+Sample data is provided in data/Saved Games/Experiment1, Experiment2, demo. Experiment1 is the environment without walls, Experiment2 is the environment with walls, and demo is for testing.
 
 ### Train network
 To train the model run ToMnetF/ToMnetF_CNN/TrainToMnetF.py
